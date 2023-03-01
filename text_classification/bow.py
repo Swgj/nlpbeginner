@@ -6,7 +6,7 @@ class Bow:
     """词袋模型"""
     def __init__(self,data,max_size=1000):
         self.data = data[:max_size]
-        self.maxsize = max_size
+        self.max_size = max_size
         self.word_dict = dict() #词典
         self.dict_size = 0 #词典大小
         self.train,self.test = data_split(data,train_size=0.7,max_size=max_size)
