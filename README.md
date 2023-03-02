@@ -14,8 +14,12 @@ This is a repository for my begining of NLP learning
 
 ### 词袋模型、N-Gram
 
-过程中绘图部分参考了：[NLP-Beginner 任务一：基于机器学习的文本分类(超详细！！)_nlpbeginner_0oTedo0的博客-CSDN博客](https://blog.csdn.net/qq_42365109/article/details/114844020)
-
 最终训练效果
 
 ![image-20230301231333881](README/image-20230301231333881.png)
+
+## 2. Text Classification with Pytorch
+
+- CNN的文本分类
+- RNN的文本分类
+- 
