@@ -72,3 +72,9 @@ This is a repository for my begining of NLP learning
    - 接着计算soft-alignment-Attention,生成二者相似度加权后的句子
    - 最后通过点积-作差的方式，得到二者的差异性
 3. 使用BiLSTM提取上下文信息，并作最后的比对
+
+- 训练结果
+
+​		准确度 19epoches 86.6592%
+
+​		![image-20230320131953402](README/image-20230320131953402.png)

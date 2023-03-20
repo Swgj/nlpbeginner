@@ -2,4 +2,6 @@
 /bert
 *.zip
 *.tar
+/data
+/task2-text_classification_pytorch/model_dict
 /task1-text_classification/demo

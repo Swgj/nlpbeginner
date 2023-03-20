@@ -184,6 +184,7 @@ def run_train(train_file,
 
     patience_counter = 0
     for epoch in range(start_epoch, epochs+1):
+        torch.cuda.empty_cache()
         epochs_count.append(epoch)
 
         print("* Training epoch {}:".format(epoch))
